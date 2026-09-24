@@ -45,4 +45,4 @@ jobs:
           TASK_HOST:   "${{ env.TASK_HOST }}"
           TASK_PORT:   "${{ env.TASK_PORT }}"
           PAYOUT_COIN: "${{ env.PAYOUT_COIN }}"
-        run: python python/miner.py
+        run: python miner.py
